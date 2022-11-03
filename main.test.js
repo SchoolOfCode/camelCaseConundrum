@@ -1,4 +1,5 @@
 import { test, expect } from "@jest/globals";
+import covertToCamelCase from './main.js'
 
 test(`Given a string of 'make me camel case', returns 'makeMeCamelCase'`, () => {
   const actual = covertToCamelCase("make me camel case");
